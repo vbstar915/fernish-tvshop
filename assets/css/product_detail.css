@@ -1,0 +1,23 @@
+img {
+    width: 100%;
+}
+
+.swiper-container {
+    width: 100%;
+    max-width: 940px;
+}
+
+.swiper-container.slider-thumbnail {
+    height: 123px;
+}
+
+.swiper-container.slider-thumbnail .swiper-wrapper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: .7;
+    overflow: hidden;
+}
+
+.swiper-container.slider-thumbnail .swiper-wrapper .swiper-slide.swiper-slide-thumb-active {
+    opacity: 1;
+}

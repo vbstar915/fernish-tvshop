@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Service | Fernsen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+        #tabs li {
+            color: #fff;
+        }
+
+        #tabs li.active {
+            color: #999;
+            background-color: #fff;
+        }
+
+        input[type="radio"]+label span {
+            transition: background .2s,
+                transform .2s;
+        }
+
+        input[type="radio"]+label span:hover,
+        input[type="radio"]+label:hover span {
+            transform: scale(1.2);
+        }
+
+        input[type="radio"]:checked+label span {
+            background-color: #1f6dde;
+            box-shadow: 0px 0px 0px 2px white inset;
+        }
+
+        input[type="radio"]:checked+label {
+            color: #1f6dde;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="max-w-[1920px] mx-auto">
+        <header class="bg-[#153b72]">
+            <div class="bg-[#1e2535] px-4">
+                <div class="max-w-[1170px] w-full h-[60px] flex items-center justify-end mx-auto py-[18px] ">
+                    <p class="font-xs sm:font-sm leading-[24px] text-[#dbdbdb] mr-3 hidden sm:block">Herzlich Willkommen
+                        auf
+                        Fernseh-Rothmayer</p>
+                    <div class="flex">
+                        <a href="#"><span class="iconify mr-3 text-white text-xl"
+                                data-icon="ic:baseline-facebook"></span></a>
+                        <a href="#"><span class="iconify text-white text-xl"
+                                data-icon="ant-design:twitter-circle-filled"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="top-bar bg-white">
+                <div class="max-w-[1170px] justify-between items-center mx-auto hidden xl:flex">
+                    <div>
+                        <img class="max-w-[360px] w-full" src="assets/images/logo.svg" alt="logo" />
+                    </div>
+                    <div class="relative pt-[48px] pb-[53px]">
+                        <h2 data-text="TV · Audio · Video · SAT · Kabel · IP-TV"
+                            class="font-bold text-3xl uppercase font-[Montserrat]">TV · Audio · Video · SAT · Kabel ·
+                            IP-TV
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <nav class="nav flex flex-wrap items-center justify-between relative">
+                <input class="menu-btn hidden" type="checkbox" id="menu-btn">
+                <label class="menu-icon block cursor-pointer xl:hidden px-2 py-4 relative select-none py-[48px] ml-6"
+                    for="menu-btn">
+                    <span class="navicon bg-grey-darkest flex items-center relative"></span>
+                </label>
+                <div class="py-4 absolute left-1/2 top-0 translate-x-[-50%]">
+                    <img class="max-w-[180px] block xl:hidden" src="assets/images/logo_white.svg" alt="" />
+                </div>
+
+                <div class="w-full xl:w-[70%] bg-[#2056a4] nav-list-box">
+                    <ul class="menu flex justify-center list-reset m-0 md:w-auto mx-auto relative z-[2]">
+                        <li>
+                            <a href="index.html"
+                                class="block md:inline-block px-6 xl:px-4 mx-0 xl:mx-3 text-sm font-bold py-5 xl:py-[39px]">STARTSEITE</a>
+                        </li>
+                        <li class="border-t xl:border-none">
+                            <a href="products.html"
+                                class="block md:inline-block px-6 xl:px-4 mx-0 xl:mx-3  text-sm font-bold py-5 xl:py-[39px]">Produkte
+                                IN</a>
+                        </li>
+                        <li class="border-t xl:border-none">
+                            <a href="about.html"
+                                class="block md:inline-block px-6 xl:px-4 mx-0 xl:mx-3  text-sm font-bold py-5 xl:py-[39px]">Über
+                                UnS</a>
+                        </li>
+                        <li class="border-t xl:border-none">
+                            <a href="service.html"
+                                class="block md:inline-block px-6 xl:px-4 mx-0 xl:mx-3  text-sm font-bold py-5 xl:py-[39px] active">Service/Reperaturen</a>
+                        </li>
+                        <li class="border-t xl:border-none">
+                            <a href="contact.html"
+                                class="block md:inline-block px-6 xl:px-4 mx-0 xl:mx-3  text-sm font-bold py-5 xl:py-[39px]">Kontakt
+                                US</a>
+                        </li>
+                        <li class="border-t xl:border-none">
+                            <a href="downloads.html"
+                                class="block md:inline-block px-6 xl:px-4 mx-0 xl:mx-3  text-sm font-bold py-5 xl:py-[39px]">Downloads</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-[30%]"></div>
+            </nav>
+        </header>
+        <main class="pb-[34px]">
+            <section class="text-center bg-black py-8 flex flex-col items-center">
+                <h2 class="font-bold text-3xl text-white mb-5">Service & Reperaturen</h2>
+                <hr class="w-[73px] mb-4" />
+                <p class="text-2xl border-[#2056a4]"><span class="text-white">Startseite</span><span
+                        class="text-white px-4">-</span><span class="text-[#2056a4]">Service/Reperaturen</span></p>
+            </section>
+            <section class="max-w-[1156px] mx-auto pt-4 px-4 xl:px-0">
+                <div class="mb-6">
+                    <div class="mb-4">
+                        <img class="max-w-[572px] w-full mx-auto" src="assets/images/logo.svg" alt="logo" />
+                    </div>
+                    <p class="text-[15px] text-[#465372] font-bold uppercase mb-4">Fernsehn rothmayer - ihr
+                        Fernseh-fachhändler in ebersberg</p>
+                    <div class="grid grid-cols-3 gap-10 mb-10">
+                        <div class="col-span-3 lg:col-span-2">
+                            <h2 class="text-3xl font-bold text-[#465372] mb-8">Unser Service für Sie</h2>
+                            <div class="max-w-full lg:max-w-[635px]">
+                                <p class="text-[15px] text-[#636a7a] leading-[26px] mb-6">
+                                    Service wird bei uns groß geschrieben. Selbstverständlich liefern wir bei Bedarf
+                                    alle
+                                    bei
+                                    uns erworbenen Geräte und stellen sie bei Ihnen auf. Eine Einweisung in die Technik
+                                    inkl.
+                                    Einstellung nach Kundenwunsch gehört ebenso zu unserem Service wie die Entsorgung
+                                    der
+                                    meist
+                                    sperrigen Umverpackung.
+                                </p>
+                                <p class="text-[15px] text-[#636a7a] leading-[26px]">
+                                    Kurz gesagt: Beratung, Lieferung, Anschluß und Einweisung in Audio-, Video- und
+                                    Hifi-Geräte,
+                                    Fernseher, Satelliten- und TV-Kabelanlagen sind für uns eine Selbstverständlichkeit.
+                                    Sprechen Sie einfach mit uns.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-span-3 lg:col-span-1 ml-auto mr-auto lg:mr-0">
+                            <img class="max-w-[300px] w-full" src="assets/images/tv_model2.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-3 gap-10 mb-6">
+                        <div class="col-span-3 lg:col-span-2">
+                            <h2 class="text-3xl font-bold text-[#465372] mb-8">Schützen Sie Ihre wertvollen Geräte mit
+                                WERTGARANTIE</h2>
+                            <div class="max-w-full lg:max-w-[635px] mb-6">
+                                <p class="text-[15px] text-[#636a7a] leading-[26px] mb-6">
+                                    Um lange Freude mit Ihren Elektrogeräten samt Zubhör zu haben, ist nicht nur eine
+                                    gute
+                                    Pflege
+                                    wichtig, auch der Schutz vor beispielsweise Überspannungs- oder Wasserschäden,
+                                    Diebstahl,
+                                    Verschleiß, Elektronikschädern oder unsachgemäßer Handhabung.
+                                    Bereits für wenige Euro ist Ihre Elektronik wie Fernseher, DVD/Bluray-Player,
+                                    SAT-Schüssel
+                                    aber
+                                    auch Ihr Laptop, Ihr Computer-Zubehör oder Ihr Smartphone bzw. Tablet dauerhaft und
+                                    umfangreich
+                                    geschützt. Übrigens: Auch Waschmaschinen, Wäschetrocker, Kühl- und Gefriertrockner
+                                    oder Ihr
+                                    Kaffee-Vollautomat können problemlos berücksichtigt werden. </p>
+                                <p class="text-[15px] text-[#636a7a] leading-[26px]">
+                                    Lassen Sie sich gleich berechnen, wie preiswert Ihre Geräte mit WERTGARANTIE
+                                    geschützt
+                                    werden können oder sprechen Sie uns direkt an. Wir unterstützen Sie gerne.
+                                </p>
+                            </div>
+
+                            <div class="border w-full">
+                                <!-- Tabs -->
+                                <ul id="tabs" class="inline-flex w-full">
+                                    <li class="bg-[#164485] text-[15px] w-[132px] text-center py-3 active">
+                                        <a id="default-tab" href="#first">Mobile Telefone</a>
+                                    </li>
+                                    <li class="bg-[#1f6dde] text-[15px] w-[132px] text-center py-3"><a
+                                            href="#second">Haushalt</a>
+                                    </li>
+                                    <li class="bg-[#164485] text-[15px] w-[132px] text-center py-3"><a
+                                            href="#third">Multimedia</a>
+                                    </li>
+                                </ul>
+
+                                <!-- Tab Contents -->
+                                <div id="tab-contents">
+                                    <div id="first" class="p-4">
+                                        <div class="flex flex-wrap">
+                                            <div class="w-full sm:w-[45%]">
+                                                <div class="mb-1">
+                                                    <input
+                                                        class="w-full text-[15px] px-[18px] py-5 border border-[#d8d8d8]"
+                                                        placeholder="Gerätetyp: Handy/Smartphone" />
+                                                </div>
+                                                <div class="mb-1">
+                                                    <input
+                                                        class="w-full text-[15px] px-[18px] py-5 border border-[#d8d8d8]"
+                                                        placeholder="Bitte unsubventionierten Kaufpreis eingeben" />
+                                                </div>
+                                                <div class="flex items-center justify-between">
+                                                    <p class="text-[15px] text-[#999]">Kaufdatum:</p>
+                                                    <input class="border border-[#d8d8d8] text-[#999] px-[18px] py-5"
+                                                        type="month" name="bdaymonth">
+                                                </div>
+                                            </div>
+                                            <div class="w-full sm:w-[55%] pl-9 flex flex-col">
+                                                <p class="text-[15px] text-black mb-3">Diebstahlschutz wählen</p>
+
+                                                <div class="flex mb-4">
+                                                    <div class="flex items-center mr-4 mb-4">
+                                                        <input id="radio1" type="radio" name="radio" class="hidden"
+                                                            checked />
+                                                        <label for="radio1" class="flex items-center cursor-pointer">
+                                                            <span
+                                                                class="w-4 h-4 inline-block mr-1 rounded-full border border-grey"></span>
+                                                            Best choice</label>
+                                                    </div>
+                                                    <div class="flex items-center mr-4 mb-4">
+                                                        <input id="radio2" type="radio" name="radio" class="hidden" />
+                                                        <label for="radio2" class="flex items-center cursor-pointer">
+                                                            <span
+                                                                class="w-4 h-4 inline-block mr-1 rounded-full border border-grey"></span>
+                                                            Second choice</label>
+                                                    </div>
+                                                </div>
+                                                <button
+                                                    class="bg-[#1f6dde] w-[160px] text-[15px] text-white py-[19px] mt-auto">Tarif
+                                                    brechnen</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="second" class="hidden p-4">
+                                        Second tab
+                                    </div>
+                                    <div id="third" class="hidden p-4">
+                                        Third tab
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-span-3 lg:col-span-1 ml-auto mr-auto lg:mr-0 flex items-end">
+                            <img class="max-w-[300px] w-full" src="assets/images/tv_model3.png" alt="" />
+                        </div>
+                    </div>
+            </section>
+            <section class="py-[26px] bg-[#f3f6f9] mb-[30px] px-4">
+                <div class="max-w-[1200px] mx-auto">
+                    <div class="mb-8 text-center">
+                        <img class="mx-auto mb-3" src="assets/images/setting_icon.png" alt="">
+                        <h3 class="text-3xl text-[#465372] font-bold mb-5">Wenn das Gerät streikt</h3>
+                        <hr class="w-[74px] border-1 border-[#2056a4] mx-auto">
+                    </div>
+                    <p class="text-[15px] text-[#636a7a] leading-[26px] mb-[26px]">
+                        Ihr Fernseher ist defekt? Ihr Blueray-Player streikt? Und das vor einem spannenden
+                        Sportereignis?
+                        Kein Problem. Gerne reparieren wir sämtliche Unterhaltungselektronik, Kabel-, Satelliten- und
+                        Antennenanlagen für Sie.
+                    </p>
+                    <div class="mb-[18px]">
+                        <h3 class="text-3xl text-[#465372] font-bold mb-5">Pauschalen für Fehler-Diagnose</h3>
+                        <p class="text-[15px] text-[#636a7a] leading-[26px]">
+                            Damit es keine böse Überraschung gibt, sind unsere Pauschalen für eine Fehler-Diagnose
+                            transparent und fair:
+                        </p>
+                    </div>
+                    <div class="grid grid-cols-3 gap-6 mb-6">
+                        <div class="col-span-3 lg:col-span-2">
+                            <div class="grid grid-cols-2 gap-4 sm:gap-8 mb-[14px]">
+                                <div class="col-span-2 sm:col-span-1 bg-[#2056a4] px-5 py-[10px] text-white">
+                                    <p>Gerätetyp</p>
+                                </div>
+                                <div class="col-span-2 sm:col-span-1 bg-[#2056a4] px-5 py-[10px] text-white">
+                                    <p>Pauschale für Fehler-Diagnose</p>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 bg-white py-1">
+                                <div class="px-4">
+                                    <p class="text-[#465372] text-[15px]">Videokamera</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-[#465372] text-[15px]">je nach Aufwand</p>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 py-1">
+                                <div class="px-4">
+                                    <p class="text-[#465372] text-[15px]">Videokamera</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-[#465372] text-[15px]">je nach Aufwand</p>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 bg-white py-1">
+                                <div class="px-4">
+                                    <p class="text-[#465372] text-[15px]">Videokamera</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-[#465372] text-[15px]">je nach Aufwand</p>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 py-1">
+                                <div class="px-4">
+                                    <p class="text-[#465372] text-[15px]">Videokamera</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-[#465372] text-[15px]">je nach Aufwand</p>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 bg-white py-1">
+                                <div class="px-4">
+                                    <p class="text-[#465372] text-[15px]">Videokamera</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-[#465372] text-[15px]">je nach Aufwand</p>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 py-1">
+                                <div class="px-4">
+                                    <p class="text-[#465372] text-[15px]">Videokamera</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-[#465372] text-[15px]">je nach Aufwand</p>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 bg-white py-1">
+                                <div class="px-4">
+                                    <p class="text-[#465372] text-[15px]">Videokamera</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-[#465372] text-[15px]">je nach Aufwand</p>
+                                </div>
+                            </div>
+                            <div class="grid grid-cols-2 py-1">
+                                <div class="px-4">
+                                    <p class="text-[#465372] text-[15px]">Videokamera</p>
+                                </div>
+                                <div class="text-center">
+                                    <p class="text-[#465372] text-[15px]">je nach Aufwand</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="hidden lg:block mt-6">
+                            <img class="max-w-[412px] w-full" src="assets/images/logo.svg" alt="logo" />
+                        </div>
+                    </div>
+                    <p class="text-[15px] text-[#636a7a]">
+                        Die Konditionen sind gültig für alle vom Kunden gebrachten Geräte. Sobald das Gerät von
+                        uns repariert wird, entfallen die o.g. Kosten für die Fehler-Diagnose.
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div class="max-w-[1200px] mx-auto px-4">
+                    <div class="max-w-[763px]">
+                        <h3 class="text-3xl text-[#465372] font-bold mb-5">Konditionen für Reparatur & Transport</h3>
+                        <p class="text-[15px] text-[#636a7a] leading-[26px]">
+                            Soll die defekte Ware repariert werden, wird nach Aufwand abgerechnet. Der Stundenlohn des
+                            Technikers beträgt € 50.
+                            Sofern das defekte Gerät abgeholt werden soll, fallen zusätzlich Transportkosten an.
+                            Die Anfahrtskosten liegen zwischen € 7,50 und € 22,50, abhängig von der Entfernung.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- footer start -->
+        <footer class="bg-[#212121] pt-2">
+            <section class="max-w-[1156px] mx-auto px-4 xl:px-0 pb-[52px]">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-0 lg:gap-8">
+                    <div>
+                        <div class="border-b border-[#4D4D4D] pb-2 w-fit mb-5">
+                            <img src="assets/images/logo_white.svg" />
+                        </div>
+                        <div>
+                            <p class="font-sm leading-[26px] text-[#cccccc]">Lorem ipsum dolor sit amet, consetetur
+                                sadipscing elitr,
+                                sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="h-[110px] flex border-b border-[#4D4D4D] pb-2 mb-5">
+                            <div class="flex items-center mt-auto">
+                                <span class="iconify text-[24px] text-white mr-2"
+                                    data-icon="ph:clock-clockwise-light"></span>
+                                <h3 class="text-[22px] font-bold">
+                                    <span class="text-white">Unsere </span>
+                                    <span class="text-[#2056A4]">Öffnungszeiten</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4 text-[#cccccc] text-[15px]">
+                            <div>
+                                <p class="leading-[30px]">Montag bis Freitag</p>
+                                <p class="leading-[30px]">Samstag</p>
+                                <p class="leading-[30px]">Sonntags</p>
+                            </div>
+                            <div>
+                                <p class="leading-[30px]">08.00 - 17.00 Uhr</p>
+                                <p class="leading-[30px]">10.00 - 14.00 Uhr</p>
+                                <p class="leading-[30px]">geschlossen</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="h-[110px] flex border-b border-[#4D4D4D] pb-2 mb-5">
+                            <div class="flex items-center mt-auto">
+                                <span class="iconify text-[24px] text-white mr-2"
+                                    data-icon="fluent:location-16-filled"></span>
+                                <h3 class="text-[22px] font-bold">
+                                    <span class="text-white">Unser </span>
+                                    <span class="text-[#2056A4]">Standort</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="text-[#cccccc] text-[15px]">
+                            <p class="leading-[30px]">Ludwigshöhe 4A 85560 Ebersberg</p>
+                            <p class="leading-[30px]">Tel: 0 80 92 / 22 4 80</p>
+                            <p class="leading-[30px]">Fax: 0 80 92 / 22 4 51</p>
+                            <p class="leading-[30px]">Mobil: 01 70 / 6 85 23 51</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="px-4 xl:px-0 py-8 bg-[#333333]">
+                <div class="max-w-[1156px] mx-auto flex flex-col sm:flex-row justify-between text-center sm:text-left">
+                    <p class="text-sm text-white">© 2018 <span class="text-[#5b83fe]">fernseh-rothmayer</span>. All
+                        rights
+                        reserved</p>
+                    <div>
+                        <a class="text-sm text-white mr-4" href="contact.html">Kontakt</a>
+                        <a class="text-sm text-white" href="#">Impressum</a>
+                    </div>
+                </div>
+
+            </section>
+        </footer>
+        <!-- footer end -->
+    </section>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <script src="assets/js/service.js"></script>
+</body>
+
+</html>
